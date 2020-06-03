@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DataSource1">
+  <ConnectionProperties>
+    <Extension>OLEDB-MD</Extension>
+    <ConnectString>Data Source=DESKTOP-6I408CP;Initial Catalog=SSAS_1</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>1533309d-3f66-483d-bd6c-547a3c335281</DataSourceID>
+</RptDataSource>

@@ -1,0 +1,194 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>SSAS_1</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>xstFc19ht1Ec+wbzitzzGKjv1Gk=11/18/2019 11:20:34 AM12/4/2019 8:21:01 AM</TimeStamp>
+        <ID>
+          <String>Accident DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>6S+Dnjv1j28RtPcs0wtK43UOyXo=11/18/2019 11:20:46 AM12/4/2019 8:21:01 AM</TimeStamp>
+        <ID>
+          <String>Accident DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ez1QufDP6ZuuOD522J/PK5+s0Bc=11/18/2019 10:38:22 PM12/4/2019 8:21:01 AM</TimeStamp>
+        <ID>
+          <String>Police Force</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1e76RJ2rL3voWNywIHkyr/5++a0=11/18/2019 11:22:22 AM12/4/2019 8:21:01 AM</TimeStamp>
+        <ID>
+          <String>Weather Conditions</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>OoduUoMLoQg3Z8Jlpje0YjY8StA=11/18/2019 11:24:36 AM12/4/2019 8:21:01 AM</TimeStamp>
+        <ID>
+          <String>Local Authority District</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>uwtYfxSFzXcHQEC2XsVIPgsY27o=11/18/2019 10:38:22 PM12/4/2019 8:21:01 AM</TimeStamp>
+        <ID>
+          <String>Road Type</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>U0P80djnuhu2m9pCpdKBThB6fZo=11/18/2019 11:24:36 AM12/4/2019 8:21:01 AM</TimeStamp>
+        <ID>
+          <String>Accident Severity</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>b6dLeCTz2cXvNxt3Xnlg7dQIkvU=11/18/2019 11:24:36 AM12/4/2019 8:21:01 AM</TimeStamp>
+        <ID>
+          <String>Special Conditions At Site</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>nMqbcqaA0cQAMfz39sKs5KWZf1g=11/18/2019 11:24:36 AM12/4/2019 8:21:01 AM</TimeStamp>
+        <ID>
+          <String>Carriageway Hazards</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>EbubdH41HPD/+3EddSxs6RoeZLw=12/5/2019 2:12:16 PM12/4/2019 8:21:01 AM</TimeStamp>
+        <ID>
+          <String>Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>SxM/MitgYNatWTrjnsPCpwlhkX4=11/18/2019 11:24:36 AM12/4/2019 8:21:01 AM</TimeStamp>
+        <ID>
+          <String>Local Authority Highway</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>58D42RAzGjW2sbQjFBTpYRKKgkI=11/18/2019 11:24:36 AM12/4/2019 8:21:01 AM</TimeStamp>
+        <ID>
+          <String>Road Surface Conditions</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>oLGS6uFtSzE1FFMwvX6ebCrVUSs=11/18/2019 11:24:36 AM12/4/2019 8:21:01 AM</TimeStamp>
+        <ID>
+          <String>Light Conditions</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>z5A6tNSLQhEduMUWU9kZ02Yd1D4=11/18/2019 10:38:22 PM12/4/2019 8:21:01 AM</TimeStamp>
+        <ID>
+          <String>Road Class</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>p0xS22M+N09CpBZNTwXoGkQGtw0=11/18/2019 11:15:02 PM12/4/2019 8:21:01 AM</TimeStamp>
+        <ID>
+          <String>Speed Limit</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>3CmfeG9la687KU7VCAJNAUSGmAc=11/18/2019 10:38:22 PM12/4/2019 8:21:01 AM</TimeStamp>
+        <ID>
+          <String>Urban Or Rural Area</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>FJFevAYZ1R6pwOgzGSdGYpCSy4o=11/18/2019 10:38:22 PM12/4/2019 8:21:01 AM</TimeStamp>
+        <ID>
+          <String>Time</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>wmjIxlnQDdcDFH3CQ6T+AUUzs2M=11/18/2019 11:42:12 PM12/4/2019 8:21:01 AM8Z0HQ2i7n+gJ+EP/+IU9erjQgyM=11/18/2019 11:28:46 AM12/4/2019 8:21:01 AM</TimeStamp>
+        <ID>
+          <String>Accident DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>Qltl9HTKCboC7PdDs+cY7cONUNM=12/4/2019 8:33:28 AM12/4/2019 8:33:28 AM</TimeStamp>
+        <ID>
+          <String>Fact 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>7sLfHfZa/aMghaHQt1kVtilGzlo=12/4/2019 9:38:18 PM12/4/2019 9:38:18 PM</TimeStamp>
+        <ID>
+          <String>Fact2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>yvwXY08xATAfsfzCG2TfPuSP7bY=12/7/2019 2:22:23 PM12/7/2019 2:22:20 PM</TimeStamp>
+        <ID>
+          <String>Fact</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>wqAWoPZwgGfadRGNH8r+QuazRMA=12/13/2019 3:02:48 PM12/13/2019 3:02:48 PM</TimeStamp>
+        <ID>
+          <String>Fact 2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>kDE6yJnx0f/jMULmEd9UciMEMzc=12/13/2019 3:07:07 PM12/13/2019 3:07:07 PM</TimeStamp>
+        <ID>
+          <String>Fact 3</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>3F2RYeV7tAI0CC+jX1E9IBA/4FU=11/18/2019 11:18:48 AM12/4/2019 8:21:01 AM</TimeStamp>
+      <ID>
+        <String>SSAS_1</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2019-12-13T08:11:13.916667Z</LastDeployed>
+</DeploymentSnapshot>

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Đồ án Olap", "Đồ án Olap\Đồ án Olap.dtproj", "{2DB55469-5DD8-4300-B078-C8EABAC674FD}"
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Qua_Trinh_SSIS", "Qua_Trinh_SSIS\Qua_Trinh_SSIS.dtproj", "{F00CE845-D3B5-44E4-AD4E-D59EE15DA269}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DB55469-5DD8-4300-B078-C8EABAC674FD}.Debug|Any CPU.ActiveCfg = Development
+		{2DB55469-5DD8-4300-B078-C8EABAC674FD}.Debug|Any CPU.Build.0 = Development
+		{2DB55469-5DD8-4300-B078-C8EABAC674FD}.Development|Any CPU.ActiveCfg = Development
+		{2DB55469-5DD8-4300-B078-C8EABAC674FD}.Development|Any CPU.Build.0 = Development
+		{2DB55469-5DD8-4300-B078-C8EABAC674FD}.Release|Any CPU.ActiveCfg = Development
+		{2DB55469-5DD8-4300-B078-C8EABAC674FD}.Release|Any CPU.Build.0 = Development
+		{F00CE845-D3B5-44E4-AD4E-D59EE15DA269}.Debug|Any CPU.ActiveCfg = Development
+		{F00CE845-D3B5-44E4-AD4E-D59EE15DA269}.Debug|Any CPU.Build.0 = Development
+		{F00CE845-D3B5-44E4-AD4E-D59EE15DA269}.Development|Any CPU.ActiveCfg = Development
+		{F00CE845-D3B5-44E4-AD4E-D59EE15DA269}.Development|Any CPU.Build.0 = Development
+		{F00CE845-D3B5-44E4-AD4E-D59EE15DA269}.Release|Any CPU.ActiveCfg = Development
+		{F00CE845-D3B5-44E4-AD4E-D59EE15DA269}.Release|Any CPU.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {490357C7-469E-45F4-AC9E-D906039BB2B8}
+	EndGlobalSection
+EndGlobal
